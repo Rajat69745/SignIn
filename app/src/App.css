@@ -17,6 +17,9 @@ input{
   width: 90%;
   background-color: rgb(35, 69, 69);
   color: white;
+
+  border-radius: 8px;
+  padding: 5px;
 }
 ::placeholder{
   color: white;
@@ -32,6 +35,7 @@ button{
   background-color: rgb(204, 78, 78);
   font-weight: bolder;
   font-size: large;
+  border-radius: 8px;
   
 
 }
@@ -44,3 +48,34 @@ h3{
   color: whitesmoke;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+
+  /* Small screens */
+  @media all and (min-width: 100px) and (max-width: 896px) {
+    
+
+    .formContainer{
+      padding: 20px;
+        background-color: #243d5b;
+        width: 60%;
+        margin: auto;
+        margin-top: 50px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+      
+      }
+
+      h3{
+        font-size: medium;
+      }
+      button{
+        font-size: medium;
+      }
+
+      
+      
+  }
